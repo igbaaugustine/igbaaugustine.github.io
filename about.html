@@ -1,122 +1,154 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
+
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>About Me</title>
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
 
-    <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
+    <title>About Augustine</title>
 
-        body {
-            font-family: Arial, sans-serif;
-            background: #0b1020;
-            color: white;
-            min-height: 100vh;
-        }
+    <link rel="stylesheet" href="style.css">
 
-        header {
-            padding: 20px 8%;
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            border-bottom: 1px solid #26304a;
-        }
-
-        .logo {
-            font-size: 25px;
-            font-weight: bold;
-            color: #00d9ff;
-        }
-
-        .back-button {
-            text-decoration: none;
-            color: white;
-            font-weight: bold;
-            padding: 10px 20px;
-            border: 1px solid #00d9ff;
-            border-radius: 25px;
-            transition: 0.3s;
-        }
-
-        .back-button:hover {
-            background: #00d9ff;
-            color: #061018;
-        }
-
-        .about-page {
-            max-width: 850px;
-            margin: auto;
-            padding: 100px 25px;
-            text-align: center;
-        }
-
-        h1 {
-            font-size: 50px;
-            margin-bottom: 25px;
-        }
-
-        h1 span {
-            color: #00d9ff;
-        }
-
-        p {
-            font-size: 19px;
-            color: #c5cad8;
-            margin-bottom: 20px;
-            line-height: 1.8;
-        }
-
-        .card {
-            margin-top: 40px;
-            padding: 35px;
-            background: #151d35;
-            border-radius: 20px;
-            border: 1px solid #26304a;
-        }
-    </style>
 </head>
+
 
 <body>
 
-    <header>
-        <div class="logo">My Website</div>
 
-        <a href="index.html" class="back-button">
-            ← Back Home
-        </a>
-    </header>
+    <main>
 
-    <main class="about-page">
+        <!-- ABOUT SECTION -->
 
-        <h1>About <span>Me</span></h1>
+        <section class="about">
 
-        <p>
-            Welcome to my About page!
-            my name is Igba Augustine
-        </p>
-
-        <p>
-            I am learning web development and building my skills
-            one step at a time.
-        </p>
-
-        <div class="card">
-            <h2>My Journey 🚀</h2>
-
-            <p>
-                This website is one of the projects I am building
-                while learning HTML, CSS and JavaScript.
-                By God grace am planning to build an international web or app
+            <p class="small-title">
+                ABOUT ME
             </p>
-        </div>
+
+
+            <h1>
+                My Journey
+            </h1>
+
+
+            <div class="about-content">
+
+
+                <!-- PHOTO --><!-- PROFILE IMAGE -->
+
+            <div class="profile-photo">
+
+              <img src="c:\Users\geo\Pictures\Screenshots\augustine.jpg (2).png" alt="Augustine">
+
+            </div>
+
+
+                <!-- INFORMATION -->
+
+                <div class="about-text">
+                    <h2>
+                        Hello, I'm Augustine 👋
+                    </h2>
+
+
+                    <p>
+                        I am a young creator who is learning
+                        web development, computer skills,
+                        artificial intelligence and other
+                        digital skills.
+                    </p>
+
+
+                    <p>
+                        I enjoy learning how technology works
+                        and turning my ideas into real projects.
+                    </p>
+
+
+                    <p>
+                        My goal is to keep improving my skills,
+                        build useful websites and create
+                        something meaningful with technology.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </section>
+
 
     </main>
 
+
+
+    <!-- BOTTOM NAVIGATION -->
+
+    <nav class="bottom-nav">
+
+
+        <a href="index.html">
+
+            <span>⌂</span>
+
+            <small>
+                Home
+            </small>
+
+        </a>
+
+
+        <a href="about.html"
+           class="active">
+
+            <span>◉</span>
+
+            <small>
+                About
+            </small>
+
+        </a>
+
+
+        <a href="skills.html">
+
+            <span>✦</span>
+
+            <small>
+                Skills
+            </small>
+
+        </a>
+
+
+        <a href="projects.html">
+
+            <span>◆</span>
+
+            <small>
+                Projects
+            </small>
+
+        </a>
+
+
+        <a href="contact.html">
+
+            <span>✆</span>
+
+            <small>
+                Contact
+            </small>
+
+        </a>
+
+
+    </nav>
+
+
 </body>
+
 </html>
